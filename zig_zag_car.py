@@ -6,8 +6,8 @@ pygame.mixer.init()
 pygame.init()                            # Created by : Abhishek Yadav
 
 # window
-win_width = 400
-win_hei = 600
+win_width = 720
+win_hei = 1280
 window = pygame.display.set_mode((win_width,win_hei))
 font = pygame.font.SysFont(None, 28)
 
@@ -53,7 +53,7 @@ window.fill(fade_blue)
 pygame.display.update()
 
 # game clock
-fps = 30
+fps = 60
 clock = pygame.time.Clock()
 
 # Menu
